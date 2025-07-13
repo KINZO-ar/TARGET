@@ -730,11 +730,14 @@
       <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required></textarea>
     </div>
 
-    <!-- 🔒 Opcional: Evita SPAM -->
-    <input type="hidden" name="_captcha" value="false">
+    <!-- Evita spam bots -->
+<input type="text" name="_honey" style="display:none">
 
-    <!-- 🔄 Redirige después de enviar -->
-    <input type="hidden" name="_next" value="https://www.target.net.ar/gracias.html">
+<!-- No captcha -->
+<input type="hidden" name="_captcha" value="false">
+
+<!-- Redirige después de enviar -->
+<input type="hidden" name="_next" value="https://www.target.net.ar/gracias.html">
 
     <div class="col-md-12 text-center">
       <div class="loading">Cargando</div>
